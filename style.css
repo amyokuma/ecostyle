@@ -1,0 +1,548 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  html, body { background-color: #E5D2BA; 
+    height: 100%;
+    width: 100%;
+  }
+  
+  .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /*CSS FOR NAVIGATION BAR*/
+  .resources:hover{
+    opacity: 0.7;
+  }
+  .recourses:active{
+    opacity: 0.4;
+  }*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  html, body { background-color: 
+  #f9f3ec; 
+    height: 100%;
+    width: 100%;
+  }
+  
+  .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /*CSS FOR NAVIGATION BAR*/
+  .resources:hover{
+    opacity: 0.7;
+  }
+  .recourses:active{
+    opacity: 0.4;
+  }
+  .our-mission:hover{
+    opacity: 0.7;
+  }
+  .our-mission:active{
+    opacity: 0.4;
+  }
+  .photo-gallery:hover{
+    opacity: 0.7; 
+  }
+  .photo-gallery:active{
+    opacity: 0.4;
+  }
+  .about-us:hover{
+    opacity: 0.7; 
+  }
+  .about-us:active{
+    opacity: 0.4;
+  }
+  
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Raleway', sans-serif;;
+    background-color: 
+  #90BED4;
+  }
+  
+  .logo{
+    color: 
+  #f9f3ec;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+  }
+  
+  .nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+  }
+
+  .nav-links li{
+    list-style: none;
+  }
+
+  .nav-links a{
+    color: 
+  #f9f3ec;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .burger{
+    display: none;
+  }
+
+  .burger div{
+    width: 25px;
+    height: 3px;
+    background-color: #f9f3ec;
+    margin: 5px;
+  }
+
+  @media screen and (max-width: 1024px){
+    .nav-links{
+      width: 70%
+    }
+  }
+
+  @media screen and (max-width: 768px){
+    .nav-links{
+      position: absolute;
+      right: 0px;
+      height: 92vh;
+      top: 8vh;
+      background-color: #90BED4;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  /*CSS FOR DEFINITION*/
+  .definition{
+    font-family:'Raleway', sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
+    height: 600px;
+    color: #f9f3ec;
+    position: relative;
+  }
+  
+  
+  .whatIs{
+    font-size: 50px;
+    position: relative;
+  }
+  
+  .def{
+    font-size: 24px;
+    position: relative;
+  }
+  .icons{
+    display: flex;
+    
+  }
+  
+  .dress{
+    width: 100%;
+    height: 120px;
+    padding-right: 250px;
+  }
+  .string{
+    width: 100%;
+    height: 130px;
+    padding-right: 250px;
+  }
+  .shirt{
+    width: 100%;
+    height: 120px;
+  }
+  /*CSS FOR RANDOM FACT GENERATOR*/
+  .container{ 
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #f9f3ec;  
+    font-size: 50px; 
+    height: 100vh;
+  }
+  
+  button{
+    color: #90BED4;
+    border: none;
+    transition: opacity 0.3s;
+    cursor: pointer; 
+    border-radius: 30px; 
+    background-color: #f9f3ec;  
+    padding: 15px;  
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px; 
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+  } 
+  button:hover{
+    opacity: 0.7;
+  }
+  
+  button:active{
+    transform: scale(0.98);
+  }
+  
+  .output{
+    background-color: #f9f3ec;
+    color: #90BED4;
+    padding: 30px 30px 20px 30px;
+    border-radius: 20px;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    width: 800px;
+  }
+  
+  @media(max-width: 550px){
+    .container{
+      width: 95%;
+    }
+  }
+  
+  /*CSS FOR Fast*/
+  .Fast {
+    color: #AA7254; 
+    background-color: #E5D2BA;
+    font-size: 35px;
+    padding: 10px; 
+    flex-direction: column;
+    justify-content: center;
+    width: 10 px; 
+     display: flex;
+    align-items: center;
+    content: 20px; 
+    position: relative;
+    height: 50vh;
+  }
+  .Fast::before{
+    content:'';
+    background-size: 30%;
+    background-position: center;
+    opacity: 0.25;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+  }
+  .isIt{
+    position: relative;
+    font-size: 45px;
+  }
+  .fastFashion{
+    position: relative;
+  }
+  
+  /*CSS FOR WAYS TO HELP*/
+  .waysToHelp {
+    color: #f9f3ec;
+    display: flex;
+    height: 100vh;
+    font-size: 20px;
+    padding: 80px;
+  }
+  
+  .intro{
+    color: #f9f3ec;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+    padding-top: 180px;
+    text-align: center;
+  }
+  
+  .header{
+    font-size: 60px;
+    text-transform: uppercase;
+    filter: drop-shadow(4px 3px 0px #90BED4);
+  }
+  
+  .subhead{
+    font-size: 20px;
+  }
+  
+  .columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 140px;
+    padding-top: 100px;
+  }
+  
+  .stop{
+    padding-right: 50px;
+  }
+  
+  .buy{
+    padding-right: 50px;
+  }
+  
+  .awareness{
+    padding-right: 50px;
+  }
+  
+  .points{
+    font-size: 30px;
+    color: #f9f3ec;
+  }
+  
+  .col + .col {
+    margin: 1.5em;
+  }
+  
+  
+  /*CSS FOR SCROLL ANIMATION*/
+  section {
+    height: 100vh;
+  }
+  
+  .homePage{
+    height: 100vh;
+  }
+  
+  .title{
+    height: 100vh;
+    position: relative;
+    background-color: #E5D2BA;
+  }
+  .title::before{
+    content: '';
+    background: url('https://happywall-img-gallery.imgix.net/4952/brown_mountains_display.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.35;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+  }
+  img{
+    position: relative;
+    max-width: 100%;
+    height: 500px;
+  }
+  .definition{
+    background: #BF8D63;
+    height: 70vh;
+  }
+  .container{
+    background: #90BED4;
+    height: 70vh;
+  }
+  .container2{
+    background:#E5D2BA;
+    height: 50vh;
+  }
+  
+  .intro{
+    background: #AA7254;
+    height: 30vh;
+  }
+  .waysToHelp{
+    background-image: url("https://ibb.co/hmXn8sQ");
+    background: #AA7254;
+    height: 70vh;
+  }
+  
+  .copyright{
+    background: #90BED4;
+    height: 7vh;
+    color: #f9f3ec;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  
+  /*If I write css for resources on resources.css nothing happens but if typed here it works */
+  /*CSS for RESOURCES*/ 
+  .resourcesTwo{
+    background-color: #BF8D63; 
+      color: black; 
+    font: 40px; 
+    text-align: center; 
+  }
+    
+  /* CSS for 2nd fact*/ 
+  .box {
+  position: top; 
+    top: 40%
+    left: 0%;
+    width:100% ; 
+    height: 100%; 
+    padding: 20px;
+    background: #E5D2BA; 
+    display: flex; 
+    padding-left: 5px; 
+    padding-bottom: 50px; 
+  }
+  
+  
+  .box .imgBx {
+    width: 150px;
+    flex: 0 0 150px; 
+  }
+  
+  
+  .box .content {
+    background-color: #E5D2BA;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    text-align: justify; 
+    font-size: 20px; 
+    font-family: 'Raleway', sans-serif;; 
+    padding-bottom: 0px; 
+  }
+  
+  
+  
+  
+  
+  
+  /*abt us*/
+  
+  .aboutUsPage{
+    background: #BF8D63;
+  
+  }
+  
+  .amy, .claire, .yazlene {
+      width: 350px;
+      height: 350px;
+      object-fit: cover;
+    border: #90BED4 solid 9px;
+  };
+  
+  
+  .sub-team-container {
+      max-width: 100%;
+      margin: auto;
+      padding: 48px 0;
+      display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+      justify-content: center;
+  }
+  
+  .clickCaption{
+    font-size: 20px;
+    color: white;
+  }
+  
+  .team-container {
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  
+  .header-about{
+    margin-top: 5%;
+      background: rgb(255, 251, 238);
+      padding-top: 30px;
+      padding-bottom: 30px;
+      color: #90BED4;
+      border: 5px solid white;
+      width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 15px;
+    display: flex;
+    justify-content: center;
+  };
+  
+  .desig{
+    color: white;
+  }
+  
+  .name {
+      font-size: 20px;
+      font-weight: bold;
+      padding: 12px;
+    color: white;
+      text-transform: uppercase;
+  }
+  
+  .bio {
+      margin: 20px 0;
+      font-weight: lighter;
+      color: white;
+      border-radius: 15px;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-bottom: 50px;
+  }

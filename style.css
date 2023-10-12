@@ -158,6 +158,7 @@ nav {
 
 .whatIs {
   font-size: 50px;
+  
 }
 
 .def {
@@ -291,6 +292,10 @@ button:active {
   bottom: 0px;
   right: 0px;
   position: absolute;
+}
+
+img{
+  position: relative;
 }
 
 .definition {

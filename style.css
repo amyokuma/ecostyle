@@ -13,11 +13,34 @@ html, body {
 }
 
 /* Navigation Bar Styles */
-.nav-links:hover {
+.home:hover{
   opacity: 0.7;
 }
-
-.nav-links:active {
+.home:active{
+  opacity: 0.4;
+}
+.resources:hover{
+  opacity: 0.7;
+}
+.recourses:active{
+  opacity: 0.4;
+}
+.our-mission:hover{
+  opacity: 0.7;
+}
+.our-mission:active{
+  opacity: 0.4;
+}
+.photo-gallery:hover{
+  opacity: 0.7; 
+}
+.photo-gallery:active{
+  opacity: 0.4;
+}
+.about-us:hover{
+  opacity: 0.7; 
+}
+.about-us:active{
   opacity: 0.4;
 }
 
@@ -168,26 +191,47 @@ nav {
 /* Styles for the Random Fact Generator Section */
 .container {
   display: flex;
-  text-align: center;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   color: #f9f3ec;
+  font-size: 40px;
+}
+
+.fact-container {
+  display: flex;
+  align-items: center;
+}
+
+.fact-container img {
+  width: 600px; /* Set the width of the image */
+  height: auto; /* Set the height of the image */
+  margin-right: 80px; /* Adjust spacing between image and text */
+  border: 7px solid #62564f;
+}
+
+.fact-container .fact-text {
   font-size: 50px;
-  height: 100vh;
+  text-align: left; /* Adjust font size for the text */
+}
+
+.fact-container .fact-text a {
+  color: #62564f;
+  font-size: 40px;
+  opacity: 60%;
 }
 
 button {
-  color: #90BED4;
+  color: #f9f3ec;
   border: none;
   transition: opacity 0.3s;
   cursor: pointer;
   border-radius: 30px;
-  background-color: #f9f3ec;
-  padding: 15px;
+  background-color: #90BED4;
+  padding: 5px;
   padding-left: 30px;
   padding-right: 30px;
-  font-size: 30px;
+  font-size: 40px;
   margin: 50px auto;
   display: flex;
   justify-content: center;
@@ -210,7 +254,13 @@ button:active {
   padding: 30px 30px 20px 30px;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  width: 800px;
+  width: 1500px;
+  height: 500px;
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 550px) {
@@ -257,6 +307,24 @@ button:active {
   padding-top: 100px;
 }
 
+.stopImg{
+  width: 400px;
+  height: auto;
+  padding-bottom: 50px;
+}
+
+.buyImg{
+  width: 400px;
+  height: auto;
+  padding-bottom: 50px;
+}
+
+.awarenessImg{
+  width: 400px;
+  height: auto;
+  padding-bottom: 50px;
+}
+
 .points {
   font-size: 30px;
   color: #f9f3ec;
@@ -299,13 +367,13 @@ img{
 }
 
 .definition {
-  background: linear-gradient(#a39481, #62564f 60%);
-  height: 70vh;
+  background: linear-gradient(#a39481, #62564f 50%);
+  height: 50vh;
 }
 
 .container {
   background: linear-gradient(#62564f, #92826f);
-  height: 70vh;
+  height: 90vh;
 }
 
 .container2 {
